@@ -1,0 +1,37 @@
+html,
+body {
+  height: 100%;
+   {
+    /* Usar 100% a área da tela */
+  }
+}
+
+body {
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    180deg,
+    #790fa3 0%,
+    #FF2524 100%
+  );
+  color: white;
+}
+
+button {
+  background: #790fa3;
+  color: #FFF;
+  padding: 0 45px;
+  border: 2px solid #FFF;
+  border-radius: 25px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: .4s;
+}
+
+button:hover{
+ background-color: #9f1ed3;
+}
